@@ -46,10 +46,25 @@ Case $r=1$ we get $a=9k+1$
 \\\\
 Case $r=2$ we get $a=9k+8$
 \\\\
-Any $r$ values greater than two we get $r^3$ values greater than nine which we can't have.
+Any $r$ values greater than two we get $r^3$ values greater than eight which we can't have.
 \\\\
 Thus the cube of any integer is of the form $9k$, $9k+1$, or $9k+8$.
 
+\subsection{Proof}
+Using the division algorithm, show that the square of any integer is of the form $3k$ or $3k+1$
+\\\\
+By the division algorithm we can write any integer as $a = 3k + r$ where the possible values for $r$ are $0 < r < 3$\\\\
+Observe that $a^3 = (3k + r)^2 = (3k)^2 + 6kr + r^2$\\\\
+This can be simplified by pulling a three out of everything except $r^2$ to $$3(3k^2+3kr) + r^2$$
+We know the inside of the parenthesis must be an integer so now we just need to find the possible $r$ values. We know $0 < r < 3$ so we can start checking our possible values to see if they fit. 
+\\\\
+Case $r=0$ we get $a=3k$
+\\\\
+Case $r=1$ we get $a=3k+1$
+\\\\
+Any $r$ values greater than one we get $r^2$ values greater than two which we can't have.
+\\\\
+Thus the square of any integer is of the form $3k$ or $3k+1$.
 
 
 \end{document}
