@@ -31,33 +31,28 @@ Decrypt: AVFFDDD ADVAXGF FXVXVGX \\
 Key 2: ENCRYPT \\
 \begin{center}
 \begin{tabular}{ c c c c c c c }
-    C & E & N & P & R & T & Y \\ [0.5ex] 
-    \hline
-    A & V & F & F & D & D & D \\
-    A & D & V & A & X & G & F \\
-    F & X & V & X & V & G & X \\
-\end{tabular}
-\end{center}
-\begin{center}
-\begin{tabular}{ c c c c c c c }
     E & N & C & R & Y & P & T \\ [0.5ex] 
     \hline
-    V & F & A & D & D & F & D \\
-    D & V & A & X & F & A & G \\
-    X & V & F & V & X & X & G \\
+    F & D & A & G & V & V & X \\
+    D & A & V & F & G & A & V \\
+    D & D & F & F & X & X & X \\
 \end{tabular}
 \end{center}
 
-\begin{center}
-\begin{tabular}{ c c c c c c c c c c c }
-    V & A & D & D & V & X & A & X & F & X & G\\  
-    F & D & F & D & A & F & G & V & V & X & -\\
-    \hline
-    7 & L & W & D & 6 & H & A & T & 4 & 9 & 0 
-\end{tabular}
-\end{center}
-\includegraphics{Cipher}\\
-
+So then the intermediate text is now: $$FDAGVVXDAVFGAVDDFFXXX$$
+Using the permutation as shown on p. 17, the letters are as follows:
+$$FD = I$$
+$$AG = A$$
+$$VV = M$$
+$$XD = N$$
+$$AV = O$$
+$$FG = B$$
+$$AV = O$$
+$$DD = D$$
+$$FF = Y$$
+$$XX = 9$$
+$$X = X$$
+Therefore the decrypted message is: $$IAMNOBODY9X$$
 
 \subsection{Division Algorithm}
 
